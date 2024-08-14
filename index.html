@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mint your Apesmigos NFT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="minting-box">
+            <img src="logo.png" alt="Apesmigos Logo" class="logo">
+            <h1>Mint your Apesmigos NFT</h1>
+            <p>Price per NFT: 0.01 ETH</p>
+            <p>Max mint per transaction: 12 NFTs</p>
+            <p>Buy your own Apesmigos!</p>
+            <button id="connectWallet" class="btn">Connect Wallet</button>
+            <input type="number" id="mintAmount" min="1" max="12" value="1">
+            <button id="mintButton" class="btn">Mint NFT</button>
+            <p id="status"> </p>
+            <a href="https://opensea.io/collection/apesmigos-1" target="_blank">See on OpenSea</a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

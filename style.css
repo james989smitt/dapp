@@ -1,0 +1,52 @@
+body {
+    background-image: url('background-image.jpg');
+    background-size: cover; /* Zorgt ervoor dat de afbeelding de hele pagina bedekt */
+    background-position: center; /* Centreert de achtergrond */
+    background-repeat: no-repeat; /* Zorgt ervoor dat de afbeelding niet herhaald wordt */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.minting-box {
+    background-color: rgba(208, 226, 7, 0.895);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #ff69b4;
+    color: rgba(218, 237, 15, 0.725);
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input {
+    width: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#status {
+    margin-top: 20px;
+    font-weight: bold;
+}
